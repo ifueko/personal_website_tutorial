@@ -46,4 +46,4 @@ TODO: add links to docs pages
 ### 8. [dynamic content: links + iframes](docs/7.Dynamic_Content.md)
 ### 9. [publishing to GitHub Pages](docs/8.Github_Pages.md)
 ### 10. [custom domain configuration using Google](docs/9.Custom_Domains.md)
-### 11. [summary and conclusion](docs/10.Conclusion.md)
+### 11. [summary and conclusion](docs/Conclusion.md)
