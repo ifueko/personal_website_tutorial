@@ -1,0 +1,22 @@
+/* BASE CSS */
+/*==========*/
+/* variables */
+:root {
+  --pink: #D50870;
+  --gold: #FFBF00;
+  --teal:	#66B2B2;
+  --main-bg-color: var(--pink);
+}
+/* fonts */
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("fonts/Comfortaa/Comfortaa-Medium.ttf");
+}
+
+/* body */
+body {
+  background-color: var(--main-bg-color);
+  background-repeat: repeat;
+  font-family: Comfortaa !important;
+}
