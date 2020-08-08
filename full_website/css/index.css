@@ -3,9 +3,12 @@
 /* variables */
 :root {
   --pink: #D50870;
-  --gold: #FFBF00;
   --teal:	#66B2B2;
-  --main-bg-color: var(--pink);
+  --twitter-blue: rgba(29,161,242,0.7);
+  --facebook-blue: rgba(59,89,152,0.7);
+  --starpages-purple: rgba(65,15,65,0.7);
+  --instagram-pink: rgba(228,51,134,0.7);
+  --linkedin-blue: rgba(42,113,174,0.7);
 }
 /* fonts */
 
@@ -14,9 +17,240 @@
   src: url("fonts/Comfortaa/Comfortaa-Medium.ttf");
 }
 
+@font-face {
+  font-family: Comfortaa;
+  font-weight: bold;
+  src: url("fonts/Comfortaa/Comfortaa-Bold.ttf");
+}
+
 /* body */
 body {
-  background-color: var(--main-bg-color);
   background-repeat: repeat;
   font-family: Comfortaa !important;
+  color: white;
+}
+
+.splash {
+  background: url("../img/splash-bg.jpg") no-repeat, black;
+  background-size: cover;
+  background-color: black !important;
+  background-repeat: repeat;
+  margin-bottom: 0px !important;
+}
+
+#splash-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#splash-headline {
+  text-align: center;
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
+}
+
+.about {
+  width: 100%;
+  font-size: 1em;
+  padding: 10px;
+}
+
+#about-img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.left {
+  text-align: left
+
+}
+
+.right {
+  text-align: right;
+
+}
+.top {
+  padding-top: 0%;
+}
+
+.bottom {
+  padding-bottom: 0%;
+}
+
+.middle {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.no-spacing {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.big-img {
+  padding-top: 10%;
+}
+
+#carousel1 {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+#carousel2 {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+#carousel3 {
+  padding: 0px !important;
+  margin: 0px;
+}
+
+.projects-1 {
+  background: url("../img/projects-1.jpg") no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+.projects-1 h1 {
+  padding-top: 30%;
+  text-shadow: 2px 2px #000000;
+}
+
+.projects-2 {
+  background: url("../img/projects-2.jpg") no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.projects-2 h1 {
+  padding-top: 30%;
+  text-shadow: 2px 2px #000000;
+}
+
+.projects-3 {
+  background: url("../img/projects-3.jpg") no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+.projects-3 h1 {
+  padding-top: 30%;
+  text-shadow: 2px 2px #000000;
+}
+
+.twitter {
+  transition: background-color 1s 0s;
+  transition: background 1.2s 0s;
+}
+
+.twitter:hover {
+  color: white;
+  background: url("../img/twitter.png") no-repeat, var(--twitter-blue);
+  background-position: 10% 0%;
+  background-size: 100px auto;
+  font-weight: bold;
+  transition: 1s;
+  left: 0;
+}
+.facebook {
+  transition: background-color 1s 0s;
+  transition: background-position 1.2s 0s;
+}
+
+.facebook:hover {
+  color: white;
+  background: url("../img/facebook.png") no-repeat, var(--facebook-blue);
+  background-position: 10% 0%;
+  background-size: 100px auto;
+  font-weight: bold;
+  transition: 1s;
+  left: 0;
+}
+
+.starpages {
+  transition: background-color 1s 0s;
+  transition: background 1.2s 0s;
+}
+
+.starpages:hover {
+  color: white;
+  background: url("../img/starpages.png") no-repeat, var(--starpages-purple);
+  background-position: 10% 0%;
+  background-size: 100px auto;
+  font-weight: bold;
+  transition: 1s;
+  left: 0;
+}
+
+.instagram {
+  transition: background-color 1s 0s;
+  transition: background 1.2s 0s;
+}
+
+.instagram:hover {
+  color: white;
+  background: url("../img/instagram.png") no-repeat,  var(--instagram-pink);
+  background-position: 10% 0%;
+  background-size: 100px auto;
+  font-weight: bold;
+  transition: 1s;
+  left: 0;
+}
+
+.linkedin {
+  transition: background-color 1s 0s;
+  transition: background 1.2s 0s;
+}
+
+.linkedin:hover {
+  color: white;
+  background: url("../img/linkedin.png") no-repeat, var(--linkedin-blue);
+  background-position: 10% 0%;
+  background-size: 100px auto;
+  font-weight: bold;
+  transition: 1s;
+  left: 0;
+}
+
+ a.social {
+  color: black;
+}
+a.social:hover {
+  color: white;
+}
+
+iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+#booking {
+  font-size: 18px;
+  background: url("../img/booking-bg.jpg") no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  padding-bottom: 20px;
+}
+
+.nobottom {
+  margin-bottom: 0px !important;
+}
+
+.gray-bg {
+  background-color: darkgray !important;
+  color: white;
+}
+
+#footer {
+  padding-top: 20px;
+}
+
+.my-4 {
+  border-color: white;
+  border-width: medium;
+  border-radius: 60%;
 }
