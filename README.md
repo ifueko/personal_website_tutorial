@@ -1,4 +1,7 @@
 # Personal Website Tutorial
+
+## CLONE THE REPO [HERE](https://github.com/ifueko/personal_website_tutorial)
+
 ## author: Ifueko Igbinedion
 This is a quick website tutorial for those trying to make a personal website or
 a website that does not require siginifant e-commerce (or other features requiring
