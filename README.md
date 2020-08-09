@@ -6,7 +6,7 @@
 This is a quick website tutorial for those trying to make a personal website or
 a website that does not require siginifant e-commerce (or other features requiring
 advanced authentication or server-side programming). Check out
-[this youtube video](https://youtu.be/JzjYUU4EpmM) for a quick intro!
+[this youtube video](https://youtu.be/540VgAvTg0c) for a quick intro!
 
 ## TOOLS USED
 ### [Editor: Atom](https://atom.io/)
