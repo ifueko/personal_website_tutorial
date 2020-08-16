@@ -149,6 +149,33 @@
       </div>
     </section>
 
+
+      <section id="comment" class="comment">
+        <h1 class="about-header">Leave me a Comment!</h1>
+        <div id="disqus_thread"></div>
+        <script>
+
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+        var disqus_config = function () {
+        this.page.url = "https://ifueko.com";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "main"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+
+      (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://ifueko-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    </section>
+
+
     <section id="footer" class="black-bg">
       <div class="container">
         <div class="row">
@@ -165,6 +192,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script id="dsq-count-scr" src="//ifueko-1.disqus.com/count.js" async></script>
     <script>
     $(function(){
       $("#carousel1").load("content/carousel1.html");
